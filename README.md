@@ -7,7 +7,7 @@
     java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
     ...
     ```
-    * 一定要执行过这条语句
+      一定要执行过这条语句
     ```java
     LocateRegistry.createRegistry(1099);
     ```
