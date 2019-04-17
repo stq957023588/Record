@@ -22,6 +22,7 @@ public class Reflex extends ReflexParent{
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		//only can get public field which is in class or parent class
 		for(Field f:clazz.getFields()){
+			//modifier 修饰符
 			System.out.println("Field Name:"+f.getName()+"\tField Modifier:"+Modifier.toString(f.getModifiers())+"\t\tField Type:"+f.getType());
 		}
 		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
